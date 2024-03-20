@@ -1,4 +1,10 @@
 import React from 'react'
+import iconSupervisor from '/icon-supervisor.svg'; 
+import iconKarma from '/icon-karma.svg'; 
+import iconTeam from '/icon-team-builder.svg'; 
+import iconCalculator from '/icon-calculator.svg'; 
+
+
 function App() {
   return (
     <div>
@@ -14,26 +20,26 @@ function App() {
         <div className=" w-80  p-5 text-left shadow-2xl  border-t-4 border-primary-cyan rounded-md">
           <h1 className='font-semibold text-xl'>Supervisor</h1>
           <p className='text-xs text-neutral-grayish-blue  mt-2'> Monitors activity to identify project <br></br>roadblocks</p>
-          <img src="/icon-supervisor.svg" alt="" className='mt-10 ml-48' />
+          <img src={iconSupervisor} alt="" className='mt-10 ml-48' />
         </div>
         {/* Center-Cards */}
         <div className=" flex flex-col  gap-11 text-left">
           <div className=" w-80  p-5 shadow-2xl border-t-4 border-primary-red  rounded-md">
             <h1 className='font-semibold text-xl'> Team Builder</h1>
             <p className='text-xs text-neutral-grayish-blue  mt-2'>Scans our talent network to create the <br></br> optimal team for your project</p>
-            <img src="/icon-team-builder.svg" alt="" className='mt-10 ml-48' />
+            <img src={iconTeam} alt="" className='mt-10 ml-48' />
           </div>
           <div className="w-80  p-5 shadow-2xl border-t-4 border-primary-orange rounded-md">
             <h1 className='font-semibold text-xl'> Karma</h1>
             <p className='text-xs text-neutral-grayish-blue  mt-2'> Regularly evaluates our talent to ensure <br></br> quality</p>
-            <img src="/icon-karma.svg" alt="" className='mt-10 ml-48' />
+            <img src={iconKarma} alt="" className='mt-10 ml-48' />
           </div>
         </div>
         {/* Right-Card */}
         <div className="w-80 p-5 text-left shadow-2xl border-t-4 border-primary-blue rounded-md">
           <h1 className='font-semibold text-xl'> Calculator</h1>
           <p className='text-xs text-neutral-grayish-blue mt-2'>Uses data from past projects to provide <br></br> better delivery estimates</p>
-          <img src="/icon-calculator.svg" alt="" className='mt-10 ml-48' />
+          <img src={iconCalculator} alt="" className='mt-10 ml-48' />
         </div>
       </div>
     </div>
