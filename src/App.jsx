@@ -1,8 +1,9 @@
 import React from 'react'
-import iconSupervisor from '/icon-supervisor.svg'; 
-import iconKarma from '/icon-karma.svg'; 
-import iconTeam from '/icon-team-builder.svg'; 
-import iconCalculator from '/icon-calculator.svg'; 
+import iconSupervisor from './images/icon-supervisor.svg'; 
+
+import iconKarma from './images/icon-karma.svg'; 
+import iconTeam from './images/icon-team-builder.svg'; 
+import iconCalculator from './images/icon-calculator.svg'; 
 
 
 function App() {
